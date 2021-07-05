@@ -13,8 +13,7 @@ def larrgestPalindrome(n):
      
         for j in range(i,lower_limit-1,-1):
          
-            # calculating product of
-            # two n-digit numbers
+          
             product = i * j
             if (product < max_product):
                 break
